@@ -1,0 +1,10 @@
+.footer-setting{
+    width: 100%;
+    min-height: 50px;
+    background-color: rgba(205, 151, 158, 0.3);
+    
+}
+
+.footer-body{
+    padding: 1.5rem;
+}

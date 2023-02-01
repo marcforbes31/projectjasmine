@@ -1,0 +1,257 @@
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+/*FONT SECTION*/
+.mono-font{
+    font-family: 'Space Mono', monospace;
+}
+
+.msz-font{
+    font-family: 'Ma Shan Zheng', cursive;
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.unbounded-font{
+    font-family: 'Unbounded', cursive;
+}
+
+.mukta-font{
+    font-family: 'Mukta', sans-serif;
+}
+
+.inter-font{
+    font-family: 'Inter', sans-serif;
+}
+/*END OF FONTS SECTION*/
+
+body{
+    background-image: url("../assets/marble.jpg");
+}
+
+.container{
+    max-width: 100%;
+}
+
+.px{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.py{
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.pt-5{
+    padding-top: 10rem;
+}
+
+.add-outline{
+    outline: 1px solid black;
+}
+
+.text-pink{
+    color: #ED5E93;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-black{
+    color: black;
+}
+
+
+li:hover{
+    cursor: pointer;
+    color: #ED5E93;
+}
+
+.jc{
+    justify-content: space-evenly;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.flex-grow{
+    flex-grow: 1;
+}
+
+#navbar{
+    overflow: hidden;
+}
+
+.sticky{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+nav ul{
+
+    font-size: 14px;
+    line-height: 40px;
+}
+
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-links{
+    padding-right: 10px;
+}
+
+.add-gap{
+    gap: 4.5rem;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-block{
+    display: block!important;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.mt{
+    margin-top: 1.5rem!important;
+}
+
+.add-outline-white{
+    outline: 1px solid white;
+}
+
+.gradient{
+    background-image: linear-gradient(to right top, #ffffff, #f3e7f7, #f3cce3, #f5b1c3, #f29898);
+}
+
+.dark-background{
+    background-color: black;
+}
+
+.logo-setting{
+    max-width: 150px;
+    max-height: 100px;
+}
+
+.w-100{
+    width: 100%!important;
+}
+
+.main-bg{
+    background-image: url("../assets/marble.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-shadow1{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.portrait{
+    width: 100%;
+    height: 100vh;
+}
+
+.portrait-setting{
+    max-width: 800px;
+    max-height: 800px;
+}
+
+.section-setting{
+    width: 100%;
+    min-height: 600px;
+    margin-bottom: 3rem;
+}
+
+.position-absolute{
+    position: absolute!important;
+}
+
+.text-greyish{
+    color: #525B74;
+}
+
+.transparent-pink{
+    background-color: #CD979E;
+}
+
+.begin-button{
+    color: white;
+    outline: 1px solid white;
+    background: #CD979E;
+    border: 0;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+}
+
+.back-button{
+    color: white;
+    outline: 1px solid white;
+    background: #507C95;
+    border: 0;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+
+}
+
+.back-button:hover{
+    cursor: pointer;
+    background-color: #FFF5F9;
+    color: #507C95;
+}
+
+.begin-button:hover{
+    cursor: pointer;
+    background-color: #FFF5F9;
+    color: #CD979E;
+}
+
+.text-deco-none{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.utm-logo{
+    max-width: 800px;
+    max-height: 800px;
+}
